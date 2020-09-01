@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding-left: 0px;
+    background:#48dbfb;
+    height : 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  #signup .container #signup-row #signup-column #signup-box #signup-form   {
+    margin-top:10px;
+    max-width: 500px;
+    height:1060px;
+    border-radius: 20px;   
+    background-color: #EAEAEA;
+    color: rgb(55, 20, 212);
+    border:2px solid #aaa;
+    margin-bottom: 10px;
+  }
+
+
+  #signup-box {
+    padding-left: 380px;
+  }
+
+  
+  #signup .container #signup-row #signup-column #signup-box #signup-form {
+    padding-left: 100px;
+  }
+  #signup .container #signup-row #signup-column #signup-box #signup-form #register-link {
+    margin-top: -85px;
+  }
+
+  .something button{   font-size: 17px;
+    font-weight: 600;
+    color: #2d3436;
+    text-transform: uppercase;
+    background: #74b9ff; 
+    border-radius: 4px 4px 4px 4px;
+    padding: 15px 175px ; 
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+.something button:hover{
+      background: #0984e3;   
+}
+ 
+.form img {
+  width: 100px;
+ margin-bottom: -30px;
+  padding-left: 150px;
+  margin-top: 15px;
+}
+
+.heading h1{
+  padding-left:140px;
+  color: #6c5ce7;
+}
+
+.paragraph p{
+  color: rgb(252, 19, 19);
+  padding-right:50px ;
+}
+
+
+
+  input[type=text]{
+    width:80%;
+    border:2px solid #aaa;
+    border-radius:12px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    height: 40px;
+    
+    
+  }
+
+  input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    
+  }
+
+  input[type=tel]{
+    width:80%;
+    border:2px solid #aaa;
+    border-radius:12px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    height: 40px;
+    margin-bottom: 18px;
+    
+  }
+
+  input[type=tel]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    
+  }
+
+  input[type=date]{
+    width:80%;
+    border:2px solid #aaa;
+    border-radius:12px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    height: 40px;
+    margin-bottom: 18px;
+    
+    
+  }
+
+  input[type=date]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    
+  }
+
+  input[type=email]{
+    width:80%;
+    border:2px solid #aaa;
+    border-radius:12px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    height: 40px;
+    margin-bottom: 18px;
+    
+  }
+
+  input[type=email]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    
+  }
+
+  
+.site-header {
+  width: 100%;
+  height: 16vh;
+  
+  
+  
+
+}
+
+
+nav{
+  width: 100%; height: 5000px;
+  /*background-color:  red;*/
+  display: flex; color: black;
+  
+}
+
+.logo{
+  width: 50%;
+  height: 100px;
+}
+
+.logo h1{
+  line-height: 70px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.slogan {
+  line-height: 70px;
+  padding-right: 50px;
+  color: #341f97;
+}
+
+
+.logarithm {
+  line-height: 140px;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
