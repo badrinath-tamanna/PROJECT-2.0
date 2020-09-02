@@ -28,6 +28,7 @@ nav{
 .logo h1{
     line-height: 100px;
     padding-right: 50px;
+  
 }
 
 
@@ -47,3 +48,32 @@ nav{
 #navbar.img {
     padding-left: 100px;
 }
+
+::placeholder {
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-size: 15px;
+}
+
+.eye {
+    position: absolute;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  #hide1 {
+    display: none;
+  }
+  
+  .eye h5 {
+    width: 10px;
+    padding-bottom:-20px;
+    margin-top: -1px;
+    margin-left: -55px;
+    cursor: pointer;
+     color:blue;
+   }
+  
+  .eye h5:hover{
+    color:red;
+  }

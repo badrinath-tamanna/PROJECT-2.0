@@ -17,7 +17,7 @@
     #navbar {
       overflow: hidden;
       background:#cfd9df;
-      padding-left: 60px;
+      padding-left: 40px;
     }
 
     #navbar a {
@@ -44,7 +44,7 @@
 
    #navbar input[type=text]{
     width:18%;
-    border:2px solid #aaa;
+    border:1px solid #aaa;
     border-radius:12px;
     margin:8px 0;
     outline:none;
@@ -65,7 +65,7 @@
 
   #navbar input[type=password]{
     width:18%;
-    border:2px solid #aaa;
+    border:1px solid #aaa;
     border-radius:12px;
     margin:8px 0;
     outline:none;
@@ -83,13 +83,22 @@
     
   }
     
-#navbar label{
-  color: black;
-  font-size: 17px;
-  margin-top: 100px;
-  padding-left: 15px;
+
+  #navbar button{   font-size: 17px;
+    font-weight: 600;
+    color: #2d3436;
+    text-transform: uppercase;
+    background: #74b9ff; 
+    border-radius: 4px 4px 4px 4px;
+    padding: 5px 15px ; 
+    margin-top: 10px;
+    cursor: pointer;
+    border-color: aqua;
 }
 
+#navbar button:hover{
+      background: #0984e3;   
+}
 
 
     .sticky {
@@ -101,6 +110,9 @@
     .sticky+.content {
       padding-top: 60px;
     }
+
+   
+
   </style>
 </head>
 
@@ -138,19 +150,34 @@
     <a href="#">Monthly Bill</a>
     <a href="#">My Orders</a>
     
-    <a href="#">Settings</a>
+    
    
     <a href="#">Notifications</a>
     <a href="#" title="Dont have an account,Register now">Sign Up</a>
-    <label> <b>Log In:</b></label>
-    
-    <input type="text" name="username" placeholder="Username" title="Type Your Username"> 
-    <input type="password" name="password" placeholder="Password" title="Type Your Password"> 
 
+    <a href="">Settings</a>
+    
+   
+    
+    <input type="text" name="username" placeholder="Email/Mobile" title="Username"> 
+    
+    <input type="password" placeholder="Password" id="myInput" name="user-password">
+    <span class="eye" onclick="MyFunction()">
+       <h5 id="hide1"><u>Hide</u></h5>
+        <h5 id="hide2"><u>Show</u></h5>
+        
+        </span>
+
+
+        <button type="submit" >Log In</button>
+    
+                    
   </div>
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.loremLorem ipsum dolor sit amet consectetur adipisicing elit. Error provident, nesciunt ad odit possimus, culpa dolorum tenetur, sed magni et pariatur unde iure accusantium molestias reprehenderit voluptas laboriosam quibusdam! Doloremque.lorem</p>
+  <div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.orem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias dolor beatae voluptatem inventore? Eos blanditiis nulla porro nihil ipsum? Rerum nostrum, eveniet possimus quo repellat omnis at ut eaque.</p>
 
+   </div>
 
   <script>
     window.onscroll = function () { myFunction() };
@@ -165,6 +192,26 @@
         navbar.classList.remove("sticky");
       }
     }
+
+    function MyFunction() {
+                var x=document.getElementById("myInput");
+                var y=document.getElementById("hide1");
+                var z=document.getElementById("hide2");
+
+                if(x.type==="password"){
+                    x.type="text";
+                    y.style.display="block";
+                    z.style.display="none";
+                }
+
+                else{
+                    x.type="password";
+                    y.style.display="none";
+                    z.style.display="block";
+                }
+
+            }
+
   </script>
 
 </body>

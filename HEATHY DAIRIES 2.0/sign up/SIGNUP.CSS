@@ -8,7 +8,7 @@ body {
   #signup .container #signup-row #signup-column #signup-box #signup-form   {
     margin-top:10px;
     max-width: 500px;
-    height:1060px;
+    height:1080px;
     border-radius: 20px;   
     background-color: #EAEAEA;
     color: rgb(55, 20, 212);
@@ -38,6 +38,7 @@ body {
     padding: 15px 175px ; 
     margin-top: 10px;
     cursor: pointer;
+    border-color: aqua;
     
 }
 
@@ -185,5 +186,9 @@ nav{
   line-height: 140px;
   padding-left: 100px;
   cursor: pointer;
+}
+::placeholder {
+  font-style: inherit;
+  font-size: 14px;
 }
 
