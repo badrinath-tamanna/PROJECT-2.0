@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo2.png" type="image/x-icon">
+    
+
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+  
+     
+    <title>Healthy Dairies : Log In</title>
+
+</head>
+
+    <body>
+
+        
+    <header class="site-header clearfix">
+        <nav>
+
+            <div class="logarithm">
+                <img src="logo2.png">
+            </div>
+
+            <div class="logo">
+                <h1>Healthy Dairies</h1>
+            </div>
+
+            <div class="slogan">
+                <h2>Fresh Milk At Your Doorstep Daily.</h2>
+            </div>
+
+
+
+            
+        </nav>
+
+
+    </header>
+    
+
+        
+        <div id="login">
+            
+            <div class="container">
+                <div id="login-row" class="row justify-content-center align-items-center">
+                    <div id="login-column" class="col-md-6">
+                        <div id="login-box" class="col-md-12">
+                            <form id="login-form" class="form" action="" method="post">
+                                <img src="login.png">
+
+                                <div class="heading">
+                                <h1 class="text-center text-info">Log In</h1>
+                                 </div>
+                                
+                               
+    
+                                <!--Username-->
+
+                                <div class="form-group">
+                                    <label for="username" class="text-info">Username*</label><br>
+                                    <input  type="text"    name="username" id="username"   class="form-control" placeholder="Mobile/Email"/>
+                                </div>
+
+                                 <!--Password-->
+                                 
+                                <div class="form-group">
+                                    <label for="password" class="text-info">Password*</label><br>
+                                    <input type="password" placeholder="Password" id="myInput">
+                                    <span class="eye" onclick="MyFunction()">
+                                       <h5 id="hide1"><u>Hide</u></h5>
+                                        <h5 id="hide2"><u>Show</u></h5>
+                                       
+                                        </span>
+                                        
+                                        </div>
+                                        <a href="#"><b>Forgot Password?</b></a> 
+                                        
+                                        
+
+                                <!--Finish  Large Button-->
+                                <div class="something">
+                                <button type="submit" form="form1" class="btn btn-primary btn-lg btn-block">Log In</button>
+                                <br>
+                                <br>
+                                Dont have an Account ?<a href="#"> <b>Sign Up</b></a> now.
+                                </div>
+                                
+                                
+
+                                
+     
+
+                               
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr>
+
+
+        <script>
+            function MyFunction() {
+                var x=document.getElementById("myInput");
+                var y=document.getElementById("hide1");
+                var z=document.getElementById("hide2");
+
+                if(x.type==="password"){
+                    x.type="text";
+                    y.style.display="block";
+                    z.style.display="none";
+                }
+
+                else{
+                    x.type="password";
+                    y.style.display="none";
+                    z.style.display="block";
+                }
+
+            }
+
+            </script>
+    </body>
+    
+
+</html>
