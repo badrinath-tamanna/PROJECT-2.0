@@ -71,9 +71,9 @@ nav{
     margin-top: -1px;
     margin-left: -55px;
     cursor: pointer;
-     color:blue;
+     color:red;
    }
   
   .eye h5:hover{
-    color:red;
+    color:green;
   }
