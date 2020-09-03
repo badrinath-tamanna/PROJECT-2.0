@@ -30,11 +30,11 @@ body {
   }
 
 <<<<<<< HEAD
-  #finish input{   font-size: 17px;
+  
 =======
   #finish input {  
     font-size: 17px;
->>>>>>> c7d10969b76a74a22be14f08843cde722d3ba31e
+
     font-weight: 600;
     color: #2d3436;
     text-transform: uppercase;
@@ -47,11 +47,9 @@ body {
     
 }
 
-<<<<<<< HEAD
-#finish input:hover{
-=======
+
+
 #finish input :hover {
->>>>>>> c7d10969b76a74a22be14f08843cde722d3ba31e
       background: #0984e3;   
 }
  
