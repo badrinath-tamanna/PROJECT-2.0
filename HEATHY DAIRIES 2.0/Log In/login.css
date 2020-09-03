@@ -29,7 +29,7 @@ body {
     margin-top: -85px;
   }
 
-  .something button{   font-size: 17px;
+  #finish input{   font-size: 17px;
     font-weight: 600;
     color: #2d3436;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ body {
     
 }
 
-.something button:hover{
+#finish input:hover{
       background: #0984e3;   
 }
  
@@ -141,12 +141,6 @@ nav{
   cursor: pointer;
 }
 
-.slogan {
-  line-height: 70px;
-  padding-right: 50px;
-  color: #341f97;
-}
-
 
 .logarithm {
   line-height: 140px;
@@ -154,14 +148,21 @@ nav{
   cursor: pointer;
 }
 
+.slogan {
+  line-height: 70px;
+  padding-right: 50px;
+  color: #341f97;
+}
+
 .eye {
   position: absolute;
   margin-top: 20px;
-  color: black;
+
 }
 
 #hide1 {
   display: none;
+  color:red;
 }
 
 .eye h5 {
@@ -170,12 +171,9 @@ nav{
   margin-top: -2px;
   margin-left: -45px;
   cursor: pointer;
-   color:blue;
+   color:green;
  }
 
-.eye h5:hover{
-  color:red;
-}
 
 
 
