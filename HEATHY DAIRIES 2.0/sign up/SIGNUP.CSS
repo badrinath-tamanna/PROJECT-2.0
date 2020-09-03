@@ -29,7 +29,7 @@ body {
     margin-top: -85px;
   }
 
-  .something button{   font-size: 17px;
+  #finish input{   font-size: 17px;
     font-weight: 600;
     color: #2d3436;
     text-transform: uppercase;
@@ -42,7 +42,7 @@ body {
     
 }
 
-.something button:hover{
+#finish input:hover{
       background: #0984e3;   
 }
  
