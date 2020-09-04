@@ -1,0 +1,185 @@
+ 
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+.site-header {
+    width: 100%;
+    height: 13vh;
+    background:#cfd9df;
+    
+}
+
+
+
+nav{
+    width: 100%; height: 100px;
+    /*background-color:  red;*/
+    display: flex; color: black;
+    
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1{
+    line-height: 100px;
+    padding-right: 50px;
+  
+}
+
+
+.logarithm {
+    line-height: 120px;
+    padding-left: 100px;
+}
+
+.slogan {
+    line-height: 100px;
+    padding-right: 50px;
+    color: darkcyan;
+}
+
+
+
+#navbar.img {
+    padding-left: 100px;
+}
+
+::placeholder {
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-size: 15px;
+}
+
+.eye {
+    position: absolute;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  #hide1 {
+    display: none;
+  }
+  
+  .eye h5 {
+    width: 10px;
+    padding-bottom:-20px;
+    margin-top: -1px;
+    margin-left:-50px;
+    cursor: pointer;
+     color:red;
+   }
+  
+  .eye h5:hover{
+    color:green;
+  }
+
+ 
+
+  #navbar {
+    overflow: hidden;
+    background:#cfd9df;
+    padding-left: 40px;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: #48dbfb;
+    color: black;
+    
+  }
+
+  #navbar img {
+    line-height: 140px;
+    padding-right: 0px;
+  }
+
+
+ #navbar input[type=text]{
+  width:18%;
+  border:1px solid #aaa;
+  border-radius:12px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+  height: 40px;
+  
+  
+}
+
+ #navbar input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+  
+}
+
+
+#navbar input[type=password]{
+  width:18%;
+  border:1px solid #aaa;
+  border-radius:12px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+  height: 40px;
+  
+  
+}
+
+ #navbar input[type=password]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+  
+}
+  
+
+#navbar button{   font-size: 17px;
+  font-weight: 600;
+  color: #2d3436;
+  text-transform: uppercase;
+  background: #74b9ff; 
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 15px ; 
+  margin-top: 10px;
+  cursor: pointer;
+  border-color: aqua;
+}
+
+#navbar button:hover{
+    background: #0984e3;   
+}
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky+.content {
+    padding-top: 60px;
+  }
