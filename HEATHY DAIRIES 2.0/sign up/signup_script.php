@@ -8,7 +8,7 @@
 	if (!$db) {
 		echo "Error: Unable to conect to the database";
 	}else {
-		$first_name = $_POST["first-name"].$_POST["last-name"];
+		$first_name = $_POST["first-name"]." ".$_POST["last-name"];
 		// $last_name = ;
 		$dob = $_POST["dob"];
 		$mobile_number = $_POST["mobile-number"];
