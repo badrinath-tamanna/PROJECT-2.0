@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../All Types Of Files/Cascading Style Sheet/homepage.css">
 
   <link rel="icon" href="../All Types Of Files/Images/logo2.png" type="image/x-icon">
-  <script src="../All Types Of Files/Java Script/homepage.js"></script>
+  <script src="homepage.js"></script>
   
 </head>
 
@@ -76,7 +76,20 @@
 
    </div>
 
- 
+   <script>
+   window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
 
 </body>
 
